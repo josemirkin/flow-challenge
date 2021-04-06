@@ -1,0 +1,24 @@
+.city {
+    border: 1px solid gray;
+    border-radius: 50px;
+    background: rgb(158,232,244);
+    background: linear-gradient(90deg, rgba(158,232,244,1) 0%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    margin-bottom: 20px;
+    
+    h4 {
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    .temperatures {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .test {
+            margin: 0 2% 0 2%;
+        }
+    }
+}
