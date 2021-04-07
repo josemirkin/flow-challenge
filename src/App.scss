@@ -1,3 +1,18 @@
 .App {
     margin: 10px;
+
+    .api-selector-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin: 12px 20px 15px;
+        }
+
+        .api-selector {
+            width: 110px;
+            margin-left: 10px;
+        }
+    }
 }

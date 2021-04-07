@@ -1,4 +1,4 @@
-There is a const (apiKey) inside the App.js file (line 13) that can be changed if the api is out of calls, keys are on the line above (line 12)
+There is a selector that let you choose between 3 apikeys in case you are out of calls.
 
 # Getting Started with Create React App
 
