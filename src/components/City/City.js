@@ -10,8 +10,8 @@ function City({ city }) {
                 <div>
                     <h5>Today: {city?.DailyForecasts[0]?.Date}</h5>
                     <div>
-                        <p>min temp {city?.DailyForecasts[0]?.Temperature.Minimum.Value}</p>
-                        <p>max temp {city?.DailyForecasts[0]?.Temperature.Maximum.Value}</p>
+                        <p>Min {city?.DailyForecasts[0]?.Temperature.Minimum.Value}</p>
+                        <p>Max {city?.DailyForecasts[0]?.Temperature.Maximum.Value}</p>
                         <img src={`../Images/${city?.DailyForecasts[0]?.Day.Icon}.png`} alt={city?.DailyForecasts[0]?.Day.IconPhrase} />
                     </div>
                 </div>
