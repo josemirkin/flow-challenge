@@ -1,3 +1,5 @@
+There is a const (apiKey) inside the App.js file (line 13) that can be changed if the api is out of calls, keys are on the line above (line 12)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
